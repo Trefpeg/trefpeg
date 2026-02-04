@@ -6,7 +6,7 @@
 	
 <head>
 
-<style>
+<style type="text/css">
 	p { font-family:"Courier new";
 		color:maroon;
 		font-size:20px;
@@ -21,17 +21,137 @@
 				font-variant:small-caps;
 				}
 		
-	EM {font-family:verdana;
+	EM { font-family:verdana;
 		font-size:35px;
 		font-style:italic;
 		font-weight:600;
-		color:red;
- </style>
+		color:blue;
+		}
+		
+	h1 { text-decoration:overline;
+		line-height:100%;
+		text-align:center;
+		font-variant:
+		text-indent:20px;
+		letter-spacing:2px;
+		color:green;
+		}
+	h4 { color:purple;
+		text-decoration:line-through;
+		line-spacing:2cm;
+		text-align:right;
+		font-variant:small-caps;
+		text-indent:50px;
+		letter-spacing:5px;
+		}
+	h3 { color:red;
+		text-decoration:underline;
+		word-spacing:15px;
+		text-align:left;
+		font-variant:small-caps;
+		}
+	h2.ramka2 { border-style: dashed;
+				border-color: aqua;
+				border-width: medium;
+				background: yellow;
+				
+				}
+	div#ramka1{
+				border-style: dashed;
+				border-color: aqua;
+				border-width: medium;
+				width: 40%;
+				}	
+	h3.zadanie1{ 
+				color: silver;
+				background: black;
+				border-style: RIDGE;
+				caps;
+				border-color: yellow;
+				text-align: right;
+				text-decoration: none;
+				}	
+	h2.obramowanie1{
+					background: white;
+					color: black;
+					padding: 10px;
+					width: 70%;
+					border: 30px solid transparent;
+					border-image: url(usa.jpg) 50 stretch;
+					}
+	h2.obramowanie2{
+					background: white;
+					color: black;
+					padding: 10px;
+					width: 70%;
+					border: 30px solid transparent;
+					border-image: url(usa.jpg) 50 round;
+					}
+	h2.ramka3{
+				background: none;
+				color: black;
+				padding: 5px;
+				width: 33%;
+				border: 50px solid;
+				border-image: url(gwiazdy2.gif) 100 round;
+			}
+	h2.ramka3a{
+				background: none;
+				color: black;
+				padding: 5px;
+				width: 33%;
+				border: 50px solid;
+				border-image: url(gwiazdy2.gif) 30 round;
+			}	
+	h2.ramka3b{
+				background: none;
+				color: black;
+				padding: 5px;
+				width: 33%;
+				border: 50px solid;
+				border-image: url(gwiazdy2.gif) 20 round;
+			}
 
+	a.raz:link, a.raz:visited { color:black;
+								text-decoration:none;
+								background:fuchsia;
+								border:solid;
+								border-radius:5px; }
+	
+	a.raz:active { color:silver;
+					text-decoration:none;
+					background:black;
+					border:dashed;
+					border-radius:5px; }
+								
+	a.raz:hover { color:yellow;
+					text-decoration:none;
+					background:green;
+					border:dotted;
+					border-radius:5px; }	
+
+	a.dwa:link, a.dwa:visited { color:black;
+								text-decoration:none;
+								background:yellow;
+								border:solid;
+								border-radius:5px; }
+	
+	a.dwa:active { color:silver;
+					text-decoration:none;
+					background:black;
+					border:dashed;
+					border-radius:5px; }
+								
+	a.dwa:hover { color:white;
+					text-decoration:none;
+					background:red;
+					border:solid;
+					border-radius:5px; }					
+ </style>
 </head>
 
-<body>
-	<div style="background-color:gray;">
+<body style="background-color:lightgray;">
+	<div style="background-color:lightgreen;">
 		<h1> PROJEKTOWANIE STRON INTERNETOWYCH </h1>
 	</div>
 	<div style="float:left;width:20%; height: 850px; background-color:aqua;">
@@ -70,17 +190,100 @@
 
  
 		<h3>zadanie Ib - CZCIONKA:</h3>
-		<em>Formatowanie EM: krój czcionki - verdana, styl - pochylenie, grubość - 600, rozmiar - 35px, color - red </em>
+		<em>Formatowanie EM: krój czcionki - verdana, styl - pochylenie, grubość - 600, rozmiar - 35px, color - blue </em>
+		<hr/>
+		<h3>zadanie II - TEKST:</h3>
+		<h1> Formatowanie tytułu h1:
+			dekoracja tekstu – nakreślenie,
+			odstępy między wierszami – 100%,
+			wyśrodkowanie,
+			kolor tekstu – zielony,
+			zamiana tekstu - małe litery
+			wcięcie wiersza - 20px;
+			odstępy miedzy znakami: 2px </h1>
+			
+		<h3>zadanie II - TEKST:</h3>
 		
+			<h4>Formatowanie tytułu h4:
+		kolor tekstu –fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,
+		tekst do prawej strony, zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px;
+		odstępy miedzy znakami: 5px:</h4>
+		
+		<h3>zadanie IIb - MODYFIKOWANIE ZADAŃ:</h3>
+
+		<h3>Formatowanie tytułu h3:
+		dekoracja tekstu – podkreślenie;
+		odległość między wyrazami w tekście: 15px;
+		text-align: left;
+		color: red;
+		zmiana wielkości liter w tekście: duże litery;</h3>
+		
+		<hr/>
+		
+		<div id="ramka1">
+		<h3> Zadanie IV -obramowanie </h3></div>
+		<h2 class="ramka2"> zadanie IV - Obramowanie:Ustawienie obr. dla h2: styl-kreskowanie, kolor obr. -aqua, Grubość-średnia, tło żółte </h2>
+		
+		<h3 class="zadanie1"> KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE,
+DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJI </h3>
+		
+		
+		
+		<hr/>
+		
+		
+		<h2 class="obramowanie1">zadanie IV – OBRAMOWANIE:
+			Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1"
+			TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+			border-image: url(folder/nazwa.jpg) 50 stretch;
+			OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR</h2>
+			
+		<br/>
+		
+		<h2 class="obramowanie2">zadanie IV – OBRAMOWANIE:
+			Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1"
+			TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+			border-image: url(folder/nazwa.jpg) 50 round;
+			OBRAZ WYPEŁNIA OBSZAR. W RAZIE POTRZEBY JEST PRZESKALOWNY, ABY WYPEŁNIĆ OBSZAR.</h2>
+
+		<br/>
+		
+		
+		<table>
+			<tr>
+				<td> <h2 class="ramka3"> zadanie IV – OBRAMOWANIE:
+				Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3"
+				TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+				border-image: url(foty/gwiazdka1.gif) 100 round; </h2>  </td>
+				<td> <h2 class="ramka3a"> zadanie IV – OBRAMOWANIE:
+				Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3"
+				TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+				border-image: url(foty/gwiazdka1.gif) 30 round; </h2>  </td>
+				<td> <h2 class="ramka3b"> zadanie IV – OBRAMOWANIE:
+				Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka3"
+				TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
+				border-image: url(foty/gwiazdka1.gif) 20 round; </h2>  </td>
+			</tr>
+		</table>
+	<hr/>
+		<h3> ZADANIE 2 </h3>
+		
+		<a href="https://www.onet.pl" target="new" class="raz"> ONET </a> &nbsp &nbsp
+		<a href="https://www.wp.pl" target="new" class="raz"> WIRTUALNA POLSKA </a> &nbsp &nbsp
+		<a href="https://tsi-pai.cba.pl" target="new" class="raz"> STRONA TSI-PAI </a>
+		<br/>
+		<br/>
+		<a href="https://www.google.com" target="new" class="dwa"> GOOGLE </a> &nbsp &nbsp
+		<a href="https://www.zspm.pl" target="new" class="dwa"> ZSPM </a> &nbsp &nbsp
+		<a href="https://tsi-pai.cba.pl" target="new" class="dwa"> STRONA TSI-PAI </a>
+		<br/>
+		<br/>
 	</div>
 	<div style="background-color:gray; clear:both;"><center> &copy; O.R. Październik 2025
 	</center></div>
+	
 
 </body>
 
 </html>
-
-
-
-
 
