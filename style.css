@@ -1,20 +1,21 @@
 	a:link, a:visited { color:white;
-								text-decoration:none;
-								background:lightblue;
-								border:solid;
-					   			width:30%;
-								border-radius:7px; }
+						text-decoration:none;
+						background:lightblue;
+						border:solid;
+					   	width:30%;
+						border-radius:7px; }
 	
 	a:active { color:silver;
-					text-decoration:none;
-					background:black;
-					border:dashed;
-			  		width:30%;
-					border-radius:7px; }
+			text-decoration:none;
+			background:black;
+			border:dashed;
+			width:30%;
+			border-radius:7px; }
 								
 	a:hover { color:navy;
-					text-decoration:underline;
-					background:blue;
-					border:dotted;
-			 		width:30%;
-					border-radius:7px; }
+			text-decoration:underline;
+			background:blue;
+			border:dotted;
+			width:30%;
+			border-radius:7px; }
+
