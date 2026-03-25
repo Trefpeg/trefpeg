@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+
+<style> 
+
+	#element1::first-line {	text-decoration:underline; 
+				background:yellow;
+				font-family:ravie;	}
+	
+	#element::first-letter {font-size:90px;
+							background:teal;
+							color:white;
+							border:lightblue 2px solid}
+	#element3::after {	background:green;
+						content: "Damy radę to zrobić";}
+	#element3::before { content: "^-^";
+						background: teal;
+						color:white;}
+	#element3 {border:red 1px solid;}
+
+</style
+
+
+
+</head>
+
+<body>
+	<div style="background-color:gray;">
+		<h1> PROJEKTOWANIE STRON INTERNETOWYCH </h1>
+	</div>
+	<div style="float:left;width:20%; height: 850px; background-color:aqua;">
+		<h3> HTML </h3>
+			<a href="index.html"> STRONA GŁÓWNA </a><br/><br/>
+			<a href="kolory.html"> KOLORY </a><br/><br/>
+			<a href="nauczyciele.html"> NAUCZYCIELE </a><br/><br/>
+			<a href="zdjecia.html"> ZDJĘCIA </a><br/><br/>
+			<a href="tabela_na_ocene.html"> TABELA NA OCENĘ </a><br/><br/>
+			<a href="lista.html"> LISTY </a><br/><br/>
+			<a href="mapy_odsylaczy.html"> MAPY ODSYŁACZY </a><br/><br/>
+			<a href="lista_na_ocene.html"> LISTA NA OCENĘ </a><br/><br/>
+			<a href="formularz.html"> FORMULARZ </a><br/><br/>
+			<a href="ruminski_formularz.html"> FORMULARZ NA OCENĘ</a><br/><br/>
+			<a href="zdarzenia.html"> ZDARZENIA </a><br/><br/>
+			<a href="canvas.html"> CANVAS </a><br/><br/>
+		<h3> MULTI </h3>
+			<a href="muzyka.html"> AUDIO I VIDEO </a><br/><br/>
+		<h3> DOKUMENTY </h3>
+			<a href="doc/word.docx"> WORD </a><br/><br/>
+			<a href="doc/exel.xlsx"> EXEL </a><br/><br/>
+		<h3> LINKI </h3>
+			<a href="http://google.com" target="new"/><img src="obrazy/google.png" width=100px"></a>
+		<h3> CSS </h3>
+			<a href="wlasciwosci_css.html"> WŁAŚCIWOŚCI </a><br/><br/>
+	</div>	
+	<div style="float:right; width:80%">
+			
+		<p id="element1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum dictum luctus. Donec mollis eget eros at suscipit. Quisque bibendum luctus felis, ut pretium est faucibus vel. Fusce sodales leo diam, tincidunt dictum </p>	
+			
+		<div>
+			<p id="element"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum dictum luctus. Donec mollis eget eros at suscipit. Quisque bibendum luctus felis, ut pretium est faucibus vel. Fusce sodales leo diam, tincidunt dictum </p>
+			<p id="element"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum dictum luctus. Donec mollis eget eros at suscipit. Quisque bibendum luctus felis, ut pretium est faucibus vel. Fusce sodales leo diam, tincidunt dictum </p>
+		</div>
+		<div>
+			<h2 id="element3"> zdać do trzeciej klasy </h2>
+			<h3 id="element3"> zdać maturę </h3>
+			<h3 id="element3"> zdać egz zawodowy </h3>
+		</div>
+		<br/>
+		<br/>
+		<ul> 
+		<li> a z</li>
+		<li> 23</li>
+		<li> 4532</li>
+		</ul>
+		
+	</div>
+	<div style="background-color:gray; clear:both;"><center> &copy; O.R. Październik 2025
+	</center></div>
+
+</body>
+
+</html>
