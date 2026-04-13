@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Klub Sportowy</title>
+    <link rel="stylesheet" href="style.css">
+	<style type="text/css">
+	body {
+		margin: 0;
+		font-family: Arial;
+		background: black;
+		color: white;
+	}
+	header {
+		background: black;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.banner img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+	.content {
+		display: flex;
+		padding: 20px;
+		gap: 20px;
+	}
+	.right { 
+		background: black;
+		padding: 10px;
+		text-align: center;
+	}
+		.right img {
+		width: 100%;
+		max-width: 200px;
+	}
+	article {
+		background: black;
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+	.first::first-letter {
+		font-size: 50px;
+		color: lightblue;
+		float: left;
+		margin-right: 10px;
+	}
+	.first::first-line {
+	color: lightblie;
+	}
+	::selection {
+		background: lime;
+		color: white;
+	}
+	footer {
+		background: gray;
+		text-align: center;
+		padding: 10px;
+	}
+	audio {
+		width: 100%;
+		margin-top: 10px;
+	}
+	article, aside {
+		border: 2px solid white;
+	}
+	h2 {
+		color: lightblue
+	}
+	</style>
+</head>
+<body>
+<header>
+    <h1>Klub Sportowy</h1>
+</header>
+<main>
+    <section class="banner">
+        <img src="stadion.jpg">
+    </section>
+    <section class="content">
+        <div class="left">
+            <article>
+                <h2>FC Barcelona</h2>
+                <p class="first">
+                    Futbol Club Barcelona kataloński wielosekcyjny zawodowy klub sportowy z Barcelony (Hiszpania), istniejący od 29 listopada 1899 roku, czyli momentu założenia męskiej drużyny piłki nożnej przez grupę Szwajcarów, Anglików, Katalończyków i Niemców. Z czasem stał się katalońską instytucją o dużym znaczeniu społecznym[1]. Jego motto to Més que un club (pol. Więcej niż klub)[2].
+					Męska drużyna piłkarska Barçy zdobyła m.in.: 5 razy Ligę Mistrzów, 28 razy LaLigę, 32 razy Puchar Króla, 3 razy Klubowe Mistrzostwo Świata, 4 razy Puchar Zdobywców Pucharów, 5 razy Superpuchar Europy i 15 razy Superpuchar Hiszpanii. 
+                </p>
+            </article>
+            <article>
+                <h3>Kontakt</h3>
+                <ul>
+				<li>Telefon: 123 456 789</li> <br />
+                <li>Email: kontakt@fcb.com</li> <br /> 
+                <li>Strona: www.fcbarcelona.com</li> <br />
+				</ul>
+            </article>
+
+        </div>
+        <aside class="right">
+            <h3>Logo</h3>
+            <img src="barcelona.png">
+        </aside>
+	</section>
+</main>
+<footer>
+    <p>© 2026 O.R.</p>
+
+</footer>
+</body>
+</html>
